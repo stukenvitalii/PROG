@@ -1,0 +1,7 @@
+n = int(input())
+m = int(input())
+k = int(input())
+
+mn = k//n
+
+print((m-1)//(mn)+1)
