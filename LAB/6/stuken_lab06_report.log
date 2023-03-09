@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.28)  28 DEC 2022 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.28)  6 MAR 2023 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/tanki/University/PROG/LAB/4/stuken_lab04_report.tex
-(d:/tanki/University/PROG/LAB/4/stuken_lab04_report.tex
+**d:/tanki/University/PROG/LAB/6/stuken_lab06_report.tex
+(d:/tanki/University/PROG/LAB/6/stuken_lab06_report.tex
 LaTeX2e <2022-11-01>
 L3 programming layer <2022-11-02> (D:\Program Files\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
@@ -376,8 +376,8 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box55
-) (stuken_lab04_report.aux)
-\openout1 = `stuken_lab04_report.aux'.
+) (stuken_lab06_report.aux)
+\openout1 = `stuken_lab06_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -441,44 +441,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/tanki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (3.73656pt too wide) in paragraph at lines 49--59
-\T2A/cmr/m/n/12 столб-цов. В функ-цию $\OML/cmm/m/it/12 scan[]row$ \T2A/cmr/m/n/12 пе-ре-да-ем этот мас-сив и ко-ли-че-ство столб-
- []
-
-
-Overfull \hbox (8.34772pt too wide) in paragraph at lines 65--85
+Overfull \hbox (8.35323pt too wide) in paragraph at lines 66--86
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--85
+Underfull \hbox (badness 10000) in paragraph at lines 66--86
 
  []
 
-[1] [2]
-<ex1.jpg, id=25, 197.538pt x 79.497pt>
-File: ex1.jpg Graphic file (type jpg)
-<use ex1.jpg>
-Package pdftex.def Info: ex1.jpg  used on input line 115.
-(pdftex.def)             Requested size: 195.0pt x 78.47784pt.
-<ex2.jpg, id=26, 196.93575pt x 81.30376pt>
-File: ex2.jpg Graphic file (type jpg)
-<use ex2.jpg>
-Package pdftex.def Info: ex2.jpg  used on input line 119.
-(pdftex.def)             Requested size: 195.0pt x 80.50955pt.
- [3 <./ex1.jpg> <./ex2.jpg>] (stuken_lab04_report.aux) ) 
+[1] [2] (stuken_lab06_report.aux) ) 
 Here is how much of TeX's memory you used:
- 5017 strings out of 475284
- 77569 string characters out of 2783919
- 428864 words of memory out of 3000000
- 26385 multiletter control sequences out of 15000+600000
- 484640 words of font info for 67 fonts, out of 8000000 for 9000
+ 5001 strings out of 475284
+ 77386 string characters out of 2783919
+ 424848 words of memory out of 3000000
+ 26374 multiletter control sequences out of 15000+600000
+ 483371 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,908b,269s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2488.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on stuken_lab04_report.pdf (4 pages, 119646 bytes).
+ 55i,7n,62p,440b,269s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2488.pk> <C:\Users\tanki\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+Output written on stuken_lab06_report.pdf (3 pages, 105691 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
-PWD d:\tanki\University\PROG\LAB\4
+PWD d:\tanki\University\PROG\LAB\6
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\tanki\University\PROG\LAB\4\stuken_lab04_report.tex
-OUTPUT stuken_lab04_report.log
+INPUT d:\tanki\University\PROG\LAB\6\stuken_lab06_report.tex
+OUTPUT stuken_lab06_report.log
 INPUT D:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT D:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT D:\Program Files\MiKTeX\tex\latex\base\report.cls
@@ -55,7 +55,7 @@ INPUT C:\Users\tanki\AppData\Roaming\MiKTeX\tex\latex\cyrillic\t2acmr.fd
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1200.tfm
 INPUT C:\Users\tanki\AppData\Roaming\MiKTeX\tex\latex\cmap\t2a.cmap
 INPUT C:\Users\tanki\AppData\Roaming\MiKTeX\tex\latex\cmap\t2a.cmap
-OUTPUT stuken_lab04_report.pdf
+OUTPUT stuken_lab06_report.pdf
 INPUT C:\Users\tanki\AppData\Roaming\MiKTeX\tex\latex\cmap\t2a.cmap
 INPUT D:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT D:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
@@ -282,10 +282,10 @@ INPUT D:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT D:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT D:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT D:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\stuken_lab04_report.aux
-INPUT stuken_lab04_report.aux
-INPUT stuken_lab04_report.aux
-OUTPUT stuken_lab04_report.aux
+INPUT .\stuken_lab06_report.aux
+INPUT stuken_lab06_report.aux
+INPUT stuken_lab06_report.aux
+OUTPUT stuken_lab06_report.aux
 INPUT D:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -356,6 +356,7 @@ INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1000.tfm
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1728.tfm
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1728.tfm
+INPUT D:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT D:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT D:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT D:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -373,26 +374,12 @@ INPUT D:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT D:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0800.tfm
-INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0600.tfm
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1200.tfm
-INPUT .\ex1.jpg
-INPUT .\ex1.jpg
-INPUT ex1.jpg
-INPUT .\ex1.jpg
-INPUT .\ex1.jpg
-INPUT .\ex1.jpg
-INPUT .\ex1.jpg
-INPUT .\ex2.jpg
-INPUT .\ex2.jpg
-INPUT ex2.jpg
-INPUT .\ex2.jpg
-INPUT .\ex2.jpg
-INPUT .\ex2.jpg
-INPUT .\ex2.jpg
-INPUT stuken_lab04_report.aux
+INPUT stuken_lab06_report.aux
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
+INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
@@ -407,5 +394,3 @@ INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1
 INPUT C:\Users\tanki\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT D:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT D:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT D:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT D:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb

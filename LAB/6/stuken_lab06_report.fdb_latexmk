@@ -1,6 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1672219514 "d:/tanki/University/PROG/LAB/4/stuken_lab04_report.tex" "stuken_lab04_report.pdf" "stuken_lab04_report" 1672219517 0
+["pdflatex"] 1678126847 "d:/tanki/University/PROG/LAB/6/stuken_lab06_report.tex" "stuken_lab06_report.pdf" "stuken_lab06_report" 1678126850 0
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1669880493 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/tanki/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1665685017 14064 ef1a1bb7b249304393193fe91540ecc3 ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1665933835 29472 ed204b629aad454922e234a93c21f933 ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk" 1665421349 45168 141cf333684c269b2ad880529bf6e276 ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk" 1665831622 22324 65eab41d1a5ad9625d2729194ae09334 ""
@@ -10,8 +11,6 @@
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/lati1440.pk" 1665831624 47032 13585bdedbddef51aabbaaff12f3236e ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1665854334 3308 eee81981029f67083258db36df06e523 ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1665421345 3312 d199be9bd555944e2403193d58a0256a ""
-  "C:/Users/tanki/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm0600.tfm" 1668195282 3248 f742b53dd94bcfe553bd3adb4ec70cf7 ""
-  "C:/Users/tanki/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm0800.tfm" 1665831617 3240 04766e423166ba63b7fbbf132b8618cb ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1665831615 3220 0e417eaf233b160335902e97259a6c77 ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1665421330 3240 c2435f2b5cd66d4930bc29b8df87967e ""
   "C:/Users/tanki/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1665421338 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
@@ -30,6 +29,7 @@
   "C:/Users/tanki/AppData/Roaming/MiKTeX/tex/latex/mmap/omx.cmap" 1215051860 3001 252c8ca42b06a22cb1a11c0e47790c6e ""
   "C:/Users/tanki/AppData/Roaming/MiKTeX/tex/latex/sidecap/sidecap.sty" 1469788773 10863 e4fd75d883a0e21600bac6a209f020eb ""
   "C:/Users/tanki/AppData/Roaming/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
+  "D:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "D:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "D:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "D:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -47,7 +47,6 @@
   "D:/Program Files/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "D:/Program Files/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
-  "D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "D:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "D:/Program Files/MiKTeX/tex/generic/babel/babel.sty" 1666510698 153052 fa634965c272c173d1137800eb4ad0a4 ""
   "D:/Program Files/MiKTeX/tex/generic/babel/locale/ru/babel-ru.ini" 1666510700 6071 29cdd0365a13e5897b61a5fca9dd65d3 ""
@@ -80,13 +79,11 @@
   "D:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1666810012 30426 f2fb69fcda4dc35ed0b7dee211bce679 ""
   "D:/Program Files/MiKTeX/tex/latex/ragged2e/ragged2e.sty" 1668504789 9416 27e737e108efcc928c66ebcca3933f3f ""
   "D:/Program Files/MiKTeX/tex/latex/tools/indentfirst.sty" 1654690828 1618 6f0598aa81f9ba5cf5d393b4abd3e091 ""
-  "d:/tanki/University/PROG/LAB/4/stuken_lab04_report.tex" 1672219269 6401 435258000e4d7d6b48f688e798264a4a ""
-  "ex1.jpg" 1672219485 4741 ea68579a23cf09fdef9dad2145beb5f4 ""
-  "ex2.jpg" 1672219500 4233 e23dd61faad3029759b16ddbfd7e677b ""
-  "stuken_lab04_report.aux" 1672219516 456 15e3ed975fbd9e635b377e9d8b42f0ac "pdflatex"
-  "stuken_lab04_report.tex" 1672219269 6401 435258000e4d7d6b48f688e798264a4a ""
+  "d:/tanki/University/PROG/LAB/6/stuken_lab06_report.tex" 1678126846 4515 de2bff2324b97815625f2dfd4ca0bb6a ""
+  "stuken_lab06_report.aux" 1678126850 132 655c6400fc15544b7f70031f0cd5d0d5 "pdflatex"
+  "stuken_lab06_report.tex" 1678126846 4515 de2bff2324b97815625f2dfd4ca0bb6a ""
   (generated)
-  "stuken_lab04_report.aux"
-  "stuken_lab04_report.log"
-  "stuken_lab04_report.pdf"
+  "stuken_lab06_report.aux"
+  "stuken_lab06_report.log"
+  "stuken_lab06_report.pdf"
   (rewritten before read)
