@@ -202,6 +202,6 @@ void add_new_el_to_struct(computers **new_computer, int index) {
     printf("Enter price in RUB(float): ");
     scanf("%f",&new_computer[index]->PRICE);
 
-    printf("Enter WINDOWS_LICENSE_KEY: (*****-*****-*****)");
+    printf("Enter WINDOWS_LICENSE_KEY: (*****;*****;*****)");
     scanf("%d-%d-%d",&new_computer[index]->WINDOWS_LICENSE_KEY[0],&new_computer[index]->WINDOWS_LICENSE_KEY[1],&new_computer[index]->WINDOWS_LICENSE_KEY[2]);
 }
