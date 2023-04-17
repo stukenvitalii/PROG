@@ -5,11 +5,27 @@
 #define MAX_STRUCT_SIZE 32
 #define MAXLEN 128
 
+struct DoubleNode {
+    int id;
+    char *MANUF;
+    struct DoubleNode *prev;
+    struct DoubleNode *next;
+};
+
+struct DoubleHead {
+    struct DoubleNode *first;
+    struct DoubleNode *last;
+};
+
+typedef struct DoubleNode DNode;
+typedef struct DoubleHead DHead;
+
+
 struct LNode
 {
     int id;
     char *NAME;
-    char *MANUFACTURER;      /**/
+    DNode *MANUFACTURER;      /**/
     int RAM;                 /*number of ram*/
     int NUMBER_OF_CORES;     /*number of cores in cpu*/
     float CPU_FREQUENCY;     /**/
@@ -25,6 +41,8 @@ struct LHead
     struct LNode *first;
     struct LNode *last;
 };
+
+
 
 typedef struct LNode Node;
 typedef struct LHead Head;
@@ -42,15 +60,26 @@ Head *make_head()
     return ph;
 }
 
-Node *create_node(char **str)
+DNode* select_by_manuf(DHead *head,char* name,int n) {
+    DNode* current = head->first;
+    while (current != NULL) {
+        if (strcmp(current->MANUF, name) == 0) {
+            return current;
+        }
+        current = current->next;
+    }
+    return NULL;
+}
+
+Node *create_node(char **str,DHead *head)
 {
     Node *new_node = NULL;
-    new_node = (Node *)malloc(sizeof(Node));
+    new_node = (Node*)malloc(sizeof(Node));
     if (new_node)
     {
         new_node->id = 1;
         new_node->NAME = str[0];
-        new_node->MANUFACTURER = str[1];
+        new_node->MANUFACTURER = select_by_manuf(head,str[1],4);          
         new_node->RAM = atoi(str[2]);
         new_node->NUMBER_OF_CORES = atoi(str[3]);
         new_node->CPU_FREQUENCY = atof(str[4]);
@@ -61,6 +90,76 @@ Node *create_node(char **str)
         new_node->next = NULL;
     }
     return new_node;
+}
+
+DHead *create_Dlist() {
+    DNode *new_DNode = NULL;
+    new_DNode = (DNode*)malloc(sizeof(DNode));
+    if (new_DNode) {
+        new_DNode->id = 1;
+        new_DNode->MANUF = "HUAWEI";
+        new_DNode->prev = NULL;
+        new_DNode->next = NULL;
+    }
+    DHead *head = NULL;
+    head = (DHead*)malloc(sizeof(DHead));
+    if (head) {
+        head->first = new_DNode;
+        head->last = new_DNode;
+    }
+    
+    DNode *node2 = NULL;
+    DNode *node3 = NULL;
+    DNode *node4 = NULL;
+    node2 = (DNode*)malloc(sizeof(DNode));
+    node3 = (DNode*)malloc(sizeof(DNode));
+    node4 = (DNode*)malloc(sizeof(DNode));
+    
+    node2->id = 2;
+    node3->id = 3;
+    node4->id = 4;
+    node2->MANUF = "HONOR";
+    node3->MANUF = "ASUS";
+    node4->MANUF = "XIAOMI";
+    
+    node2->prev = new_DNode;
+    node2->next = node3;
+
+    node3->prev = node2;
+    node3->next = node4;
+
+    node4->prev = node3;
+    node4->next = NULL;
+
+    new_DNode->next = node2;
+
+    head->first = new_DNode;
+    head->last = node4;
+
+    return head;
+}
+
+DNode* Dselect_by_id(DHead *head,int id,int n) {
+    DNode *last = head->first;
+    for (int i = 0;i < n - id;i++) {
+        last = last->next; 
+    }
+    return last;
+}
+
+void deleteDNode(DHead *dhead,int k,int n) {
+    DNode *found = Dselect_by_id(dhead,k,n);
+    if (found == dhead->first) {
+        dhead->first = dhead->first->next;
+    }
+    else if(found == dhead->last) {
+        dhead->last = found->prev;
+        found->prev->next = NULL;
+    }
+    else {
+        found->prev->next = found->next;
+        found->next->prev = found->prev;
+    }
 }
 
 void add_first(Node *new_node, Head *my_head)
@@ -160,10 +259,31 @@ void print(Head *H,int n){
     Node *S;
     S=H->first;
     for(int i=0;i<n;i++){
-        printf("|%i|%s|%s|\n", S->id, S->NAME, S->MANUFACTURER);
+        printf("|%i|%s|%s|\n", S->id, S->NAME,S->MANUFACTURER->MANUF);
         S=S->next;
     }
 }
+
+void printD(DHead *head,int n) {
+    DNode *first = head->first;
+    for (int i = 0;i < n;i++) {
+        printf("%s\n",first->MANUF);
+        first = first->next;
+    }
+}
+
+void print_new(Head *H,int n,DNode *found) {
+    Node *S;
+    char* found_manuf = found->MANUF;
+    S=H->first;
+    for(int i=0;i<n;i++){
+        if (strcmp(found_manuf,(char*)S->MANUFACTURER->MANUF)) {
+            printf("|%i|%s|%s|\n", S->id, S->NAME,S->MANUFACTURER->MANUF);
+        }
+        S = S->next;
+    }
+}
+
 
 int main()
 {
@@ -171,13 +291,13 @@ int main()
     Node *S = NULL;
     Node *S0 = NULL;
     char s1[MAXLEN], **s2 = NULL, sep;
-    int slen, number,position;
+    int slen, number;
     FILE *fp;
     H = make_head();
+    DHead *head = create_Dlist();
     printf("enter id:\n");
+    // number = 3;
     scanf("%i", &number);
-    printf("enter position:\n");
-    scanf("%i",&position);
     fp = fopen("data7.csv", "r");
     if (fp != NULL)
     {
@@ -191,7 +311,7 @@ int main()
             s2 = simple_split(s1, slen, sep);
             if (s2 != NULL)
             {
-                S = create_node(s2);
+                S = create_node(s2,head);
                 if (S0 == NULL)
                     H->first = S;
                 else
@@ -206,19 +326,25 @@ int main()
         H->last = S;
         fclose(fp);
     }
-
-    // print(H,6);
-
-    Node *target_node = select_by_id(H,number);
-    printf("%s\n",target_node->NAME);
-    Node *node_after = select_by_id(H,position);
-    printf("%s\n",node_after->NAME);
-    insert_after(H,node_after,target_node);
-    print(H,7);
+    puts("Source list:");
+    puts("---------------------------------------------------");
+    print(H,6);
+    puts("---------------------------------------------------");
+    puts("Source DLL:");
+    printD(head,4);
+    puts("---------------------------------------------------");
+    
+    DNode *found = Dselect_by_id(head,number,4);
+    printf("%s - found and deleted\n",found->MANUF);
+    puts("---------------------------------------------------");
+    deleteDNode(head,number,4);
+    puts("New DLL:");
+    printD(head,3);
+    puts("---------------------------------------------------");
+    puts("New list:");
+    print_new(H,6,found);
+    puts("---------------------------------------------------");
 
     return 0;
 }
 
-// 2,6
-// 4,6
-// 1,5
