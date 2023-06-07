@@ -295,9 +295,7 @@ int main()
     FILE *fp;
     H = make_head();
     DHead *head = create_Dlist();
-    printf("enter id:\n");
-    // number = 3;
-    scanf("%i", &number);
+    
     fp = fopen("data7.csv", "r");
     if (fp != NULL)
     {
@@ -334,17 +332,35 @@ int main()
     printD(head,4);
     puts("---------------------------------------------------");
     
-    DNode *found = Dselect_by_id(head,number,4);
-    printf("%s - found and deleted\n",found->MANUF);
-    puts("---------------------------------------------------");
-    deleteDNode(head,number,4);
-    puts("New DLL:");
-    printD(head,3);
-    puts("---------------------------------------------------");
-    puts("New list:");
-    print_new(H,6,found);
-    puts("---------------------------------------------------");
-
+    printf("enter id:\n");
+    scanf("%i", &number);
+    if (number > 5) {
+        deleteDNode(head,4,4);
+        DNode *found = head->first;
+        puts("---------------------------------------------------");
+        puts("New DLL:");
+        printD(head,3);
+        puts("---------------------------------------------------");
+        puts("New list:");
+        print_new(H,6,found);
+        puts("---------------------------------------------------");
+        
+    }
+    else if (Dselect_by_id(head,number,4)) {
+        DNode *found = Dselect_by_id(head,number,4);
+        printf("%s - found and deleted\n",found->MANUF);
+        puts("---------------------------------------------------");
+        deleteDNode(head,number,4);
+        puts("New DLL:");
+        printD(head,3);
+        puts("---------------------------------------------------");
+        puts("New list:");
+        print_new(H,6,found);
+        puts("---------------------------------------------------");
+    }
+    else {
+        puts("List is empty");
+    }
+    
     return 0;
 }
-
